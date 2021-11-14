@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.721">
-    <testcase classname="Application login" name="Title of your scenario" time="0.204">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="1.316">
+    <testcase classname="Application login" name="Title of your scenario" time="0.161">
+        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action with username "suhail" password "1234"...............passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And validation is "successfull".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Application login" name="Title of your scenario 2" time="0.021">
         <system-out><![CDATA[Given I want to write a step with precondition..............................passed
 And some other precondition.................................................passed
 When I complete action with username "sana" password "3241".................passed
@@ -10,10 +20,79 @@ Then I validate the outcomes................................................pass
 And validation is "not successfull".........................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Application login" name="Title of your scenario 2" time="0.052">
+    <testcase classname="Application login" name="Title of your scenario 3" time="0.02">
         <system-out><![CDATA[Given I want to write a step with precondition..............................passed
 And some other precondition.................................................passed
 When I complete action of sign up with following details....................passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And validation is "successfull".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign up to application" name="Title of your scenario" time="0.025">
+        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action with username suhail and password 1234...............passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And validation is "successfull".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign up to application" name="Title of your scenario 2" time="0.031">
+        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action with username sana and password 2134.................passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And validation is "successfull".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign up to application" name="Title of your scenario 3" time="0.033">
+        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action with username minni and password 4321................passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And validation is "successfull".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign up to application" name="Title of your scenario" time="0.048">
+        <system-out><![CDATA[Given validate the browser..................................................passed
+When browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action with username suhail and password 1234...............passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And validation is "successfull".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign up to application" name="Title of your scenario 2" time="0.034">
+        <system-out><![CDATA[Given validate the browser..................................................passed
+When browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action with username sana and password 2134.................passed
+And some other action.......................................................passed
+And yet another action......................................................passed
+Then I validate the outcomes................................................passed
+And validation is "successfull".............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sign up to application" name="Title of your scenario 3" time="0.02">
+        <system-out><![CDATA[Given validate the browser..................................................passed
+When browser is triggered...................................................passed
+Then check if browser is started............................................passed
+Given I want to write a step with precondition..............................passed
+And some other precondition.................................................passed
+When I complete action with username minni and password 4321................passed
 And some other action.......................................................passed
 And yet another action......................................................passed
 Then I validate the outcomes................................................passed
