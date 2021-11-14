@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="12.121">
-    <testcase classname="Search and place the order" name="Search for items and validate results" time="6.56">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="17.647">
+    <testcase classname="Search and place the order" name="Search for items and validate results" time="6.636">
         <system-out><![CDATA[Given User is on GreenKart landing page.....................................passed
 When User searches for vegetable "Cucumber".................................passed
 Then "Cucumber" results are displayed.......................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Search and place the order" name="Search for items and go to checkoutpage" time="5.368">
+    <testcase classname="Search and place the order" name="Search for items and go to checkoutpage" time="5.422">
         <system-out><![CDATA[Given User is on GreenKart landing page.....................................passed
-When User searches for vegetable "Brinjal"..................................passed
+When User searches for vegetables Beetroot..................................passed
 And Added "3" items to cart.................................................passed
 And User clicks on proceed to checkout page for purchase....................passed
-Then Verify selected product "Brinjal" item is displayed in checkout page...passed
+Then Verify selected products Beetroot item is displayed in checkout page...passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search and place the order" name="Search for items and go to checkoutpage 2" time="5.381">
+        <system-out><![CDATA[Given User is on GreenKart landing page.....................................passed
+When User searches for vegetables Carrot....................................passed
+And Added "3" items to cart.................................................passed
+And User clicks on proceed to checkout page for purchase....................passed
+Then Verify selected products Carrot item is displayed in checkout page.....passed
 ]]></system-out>
     </testcase>
 </testsuite>

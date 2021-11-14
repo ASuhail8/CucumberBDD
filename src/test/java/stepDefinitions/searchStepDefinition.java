@@ -58,4 +58,16 @@ public class searchStepDefinition {
 		driver.findElement(By.xpath("//button[normalize-space()='PROCEED TO CHECKOUT']")).click();
 	}
 
+	@When("^User searches for vegetables (.+)$")
+	public void user_searches_for_vegetables(String vegetable) throws Throwable {
+		homePage = new HomePage(driver);
+		homePage.searchForProduct(vegetable);
+		Thread.sleep(2000);
+	}
+
+	@Then("^Verify selected products (.+) item is displayed in checkout page$")
+	public void verify_selected_products_item_is_displayed_in_checkout_page(String vegetable) throws Throwable {
+		Assert.assertTrue(driver.findElement(By.cssSelector("p.product-name")).getText().contains(vegetable));
+	}
+
 }

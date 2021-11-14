@@ -18,7 +18,7 @@ public class Base {
 	private static WebDriverWait wait;
 
 	public static WebDriver getDriver() throws IOException {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\abdul\\Desktop\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get(getProperties().getProperty("url"));
