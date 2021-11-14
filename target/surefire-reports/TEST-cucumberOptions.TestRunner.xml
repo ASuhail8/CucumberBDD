@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumberOptions.TestRunner" time="2.723" tests="16" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\abdul\eclipse-workspace\BDD\target\test-classes;C:\Users\abdul\eclipse-workspace\BDD\target\classes;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\abdul\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\abdul\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\abdul\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\abdul\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\abdul\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\abdul\AppData\Local\Temp\surefire8953856663075344438\surefirebooter8242300764595790507.jar C:\Users\abdul\AppData\Local\Temp\surefire8953856663075344438 2021-11-14T11-33-44_239-jvmRun1 surefire9132732799690994167tmp surefire_011963027735346876161tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="TestRunner"/>
+    <property name="surefire.test.class.path" value="C:\Users\abdul\eclipse-workspace\BDD\target\test-classes;C:\Users\abdul\eclipse-workspace\BDD\target\classes;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\abdul\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\abdul\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\abdul\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\abdul\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\abdul\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\abdul\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\abdul\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\abdul"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\abdul\eclipse-workspace\BDD"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\abdul\AppData\Local\Temp\surefire8953856663075344438\surefirebooter8242300764595790507.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="abdul"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\abdul\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\abdul\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="C:\Users\abdul\eclipse-workspace\BDD"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;D:\Jars\apache-maven-3.8.3\bin;C:\Program Files\Java\jdk-15.0.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\abdul\AppData\Local\Microsoft\WindowsApps;C:\Users\abdul\AppData\Roaming\npm;C:\Users\abdul\.dotnet\tools;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="I want to write a step with precondition" classname="Title of your scenario #2" time="0.004">
+    <system-out><![CDATA[
+@Smoke
+Scenario: Title of your scenario                              # src/test/java/features/Login.feature:17
+Before validation
+I want to write a step with precondition
+]]></system-out>
+  </testcase>
+  <testcase name="some other precondition" classname="Title of your scenario #2" time="0.002">
+    <system-out><![CDATA[  Given I want to write a step with precondition              # stepDefinitions.StepDefinition.I_want_to_write_a_step_with_precondition()
+some other precondition
+]]></system-out>
+  </testcase>
+  <testcase name="I complete action with username &quot;sana&quot; password &quot;3241&quot;" classname="Title of your scenario #2" time="0.004">
+    <system-out><![CDATA[  And some other precondition                                 # stepDefinitions.StepDefinition.some_other_precondition()
+logged in using sana 3241
+]]></system-out>
+  </testcase>
+  <testcase name="some other action" classname="Title of your scenario #2" time="0.009">
+    <system-out><![CDATA[  When I complete action with username "sana" password "3241" # stepDefinitions.StepDefinition.i_complete_action_with_username_something_and_password_something(java.lang.String,java.lang.String)
+some other action
+]]></system-out>
+  </testcase>
+  <testcase name="yet another action" classname="Title of your scenario #2" time="0.003">
+    <system-out><![CDATA[  And some other action                                       # stepDefinitions.StepDefinition.some_other_action()
+yet another action
+]]></system-out>
+  </testcase>
+  <testcase name="I validate the outcomes" classname="Title of your scenario #2" time="0.001">
+    <system-out><![CDATA[  And yet another action                                      # stepDefinitions.StepDefinition.yet_another_action()
+I validate the outcomes
+]]></system-out>
+  </testcase>
+  <testcase name="validation is &quot;not successfull&quot;" classname="Title of your scenario #2" time="0.001">
+    <system-out><![CDATA[  Then I validate the outcomes                                # stepDefinitions.StepDefinition.I_validate_the_outcomes()
+validation is not successfull
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Title of your scenario #2" time="0.013">
+    <system-out><![CDATA[  And validation is "not successfull"                         # stepDefinitions.StepDefinition.validation_is_something(java.lang.String)
+After validation
+]]></system-out>
+  </testcase>
+  <testcase name="I want to write a step with precondition" classname="Title of your scenario #3" time="0.002">
+    <system-out><![CDATA[
+@Smoke
+Scenario: Title of your scenario                           # src/test/java/features/Login.feature:27
+Before validation
+I want to write a step with precondition
+]]></system-out>
+  </testcase>
+  <testcase name="some other precondition" classname="Title of your scenario #3" time="0.002">
+    <system-out><![CDATA[  Given I want to write a step with precondition           # stepDefinitions.StepDefinition.I_want_to_write_a_step_with_precondition()
+some other precondition
+]]></system-out>
+  </testcase>
+  <testcase name="I complete action of sign up with following details" classname="Title of your scenario #3" time="0.02">
+    <system-out><![CDATA[  And some other precondition                              # stepDefinitions.StepDefinition.some_other_precondition()
+username = suhail
+password = 1234
+email = abc@abc.com
+country = india
+phone No = 819728
+]]></system-out>
+  </testcase>
+  <testcase name="some other action" classname="Title of your scenario #3" time="0.003">
+    <system-out><![CDATA[  When I complete action of sign up with following details # stepDefinitions.StepDefinition.i_complete_action_of_sign_up_with_following_details(io.cucumber.datatable.DataTable)
+    | suhail | 1234 | abc@abc.com | india | 819728 |
+some other action
+]]></system-out>
+  </testcase>
+  <testcase name="yet another action" classname="Title of your scenario #3" time="0.009">
+    <system-out><![CDATA[  And some other action                                    # stepDefinitions.StepDefinition.some_other_action()
+yet another action
+]]></system-out>
+  </testcase>
+  <testcase name="I validate the outcomes" classname="Title of your scenario #3" time="0.006">
+    <system-out><![CDATA[  And yet another action                                   # stepDefinitions.StepDefinition.yet_another_action()
+I validate the outcomes
+]]></system-out>
+  </testcase>
+  <testcase name="validation is &quot;successfull&quot;" classname="Title of your scenario #3" time="0.009">
+    <system-out><![CDATA[  Then I validate the outcomes                             # stepDefinitions.StepDefinition.I_validate_the_outcomes()
+validation is successfull
+]]></system-out>
+  </testcase>
+  <testcase name="" classname="Title of your scenario #3" time="0.018">
+    <system-out><![CDATA[  And validation is "successfull"                          # stepDefinitions.StepDefinition.validation_is_something(java.lang.String)
+After validation
+]]></system-out>
+  </testcase>
+</testsuite>
