@@ -11,7 +11,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.HomePage;
 
-public class searchStepDefinition {
+public class searchStepDefinition extends Base {
 	public WebDriver driver;
 	HomePage homePage;
 

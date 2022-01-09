@@ -4,13 +4,17 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
 
@@ -18,10 +22,11 @@ public class Base {
 	private static WebDriverWait wait;
 
 	public static WebDriver getDriver() throws IOException {
-		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get(getProperties().getProperty("url"));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get(getProperties().getProperty("PracticeUrl"));
 		return driver;
 	}
 
@@ -36,10 +41,15 @@ public class Base {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		return wait.until(ExpectedConditions.elementToBeClickable(locator));
 	}
-	
+
 	public static WebElement waitUntilElementTobeVisible(By locator) {
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+	}
+
+	public static Select selectDropdown(WebElement element) {
+		Select select = new Select(element);
+		return select;
 	}
 
 }

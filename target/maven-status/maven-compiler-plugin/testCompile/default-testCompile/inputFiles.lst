@@ -1,4 +1,11 @@
 C:\Users\abdul\eclipse-workspace\BDD\src\test\java\stepDefinitions\Hooks.java
-C:\Users\abdul\eclipse-workspace\BDD\src\test\java\cucumberOptions\TestRunner.java
+C:\Users\abdul\eclipse-workspace\BDD\src\test\java\pages\HomePage.java
+C:\Users\abdul\eclipse-workspace\BDD\src\test\java\cucumber\bdd\Base.java
+C:\Users\abdul\eclipse-workspace\BDD\src\test\java\pages\PracticePage.java
+C:\Users\abdul\eclipse-workspace\BDD\src\test\java\cucumberoptions\TestRunnerRegression.java
+C:\Users\abdul\eclipse-workspace\BDD\src\test\java\cucumberoptions\TestRunnerSmoke.java
 C:\Users\abdul\eclipse-workspace\BDD\src\test\java\stepDefinitions\StepDefinition.java
-C:\Users\abdul\eclipse-workspace\BDD\src\test\java\cucumberOptions\TestNGTestRunner.java
+C:\Users\abdul\eclipse-workspace\BDD\src\test\java\stepDefinitions\Practice.java
+C:\Users\abdul\eclipse-workspace\BDD\src\test\java\cucumberoptions\SearchTestRunner.java
+C:\Users\abdul\eclipse-workspace\BDD\src\test\java\cucumberoptions\TestNGTestRunner.java
+C:\Users\abdul\eclipse-workspace\BDD\src\test\java\stepDefinitions\searchStepDefinition.java

@@ -1,3 +1,9 @@
+cucumber\bdd\Base.class
 stepDefinitions\Hooks.class
-cucumberOptions\TestRunner.class
+stepDefinitions\Practice.class
+stepDefinitions\searchStepDefinition.class
+pages\PracticePage.class
+pages\HomePage.class
+cucumberoptions\TestRunnerRegression.class
 stepDefinitions\StepDefinition.class
+cucumberoptions\TestRunnerSmoke.class

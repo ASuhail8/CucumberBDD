@@ -1,118 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="16.642">
-    <testcase classname="Application login" name="Title of your scenario" time="0.201">
-        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
-And some other precondition.................................................passed
-When I complete action with username "suhail" password "1234"...............passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And validation is "successfull".............................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="26.15">
+    <testcase classname="Practice Page" name="Handling Dynamic dropdowns" time="7.476">
+        <system-out><![CDATA[Given User is on Practice Landing Page......................................passed
+When User enters India in the select countries text box.....................passed
+Then User should be able to select India....................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Application login" name="Title of your scenario 2" time="0.052">
-        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
-And some other precondition.................................................passed
-When I complete action with username "sana" password "3241".................passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And validation is "not successfull".........................................passed
+    <testcase classname="Practice Page" name="Handling Dynamic dropdowns 2" time="5.909">
+        <system-out><![CDATA[Given User is on Practice Landing Page......................................passed
+When User enters Pakistan in the select countries text box..................passed
+Then User should be able to select Pakistan.................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Application login" name="Title of your scenario 3" time="0.057">
-        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
-And some other precondition.................................................passed
-When I complete action of sign up with following details....................passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And validation is "successfull".............................................passed
+    <testcase classname="Practice Page" name="Handling Dynamic dropdowns 3" time="6.349">
+        <system-out><![CDATA[Given User is on Practice Landing Page......................................passed
+When User enters Saudi Arabia in the select countries text box..............passed
+Then User should be able to select Saudi Arabia.............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Sign up to application" name="Title of your scenario" time="0.039">
-        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
-And some other precondition.................................................passed
-When I complete action with username suhail and password 1234...............passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And validation is "successfull".............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Sign up to application" name="Title of your scenario 2" time="0.052">
-        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
-And some other precondition.................................................passed
-When I complete action with username sana and password 2134.................passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And validation is "successfull".............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Sign up to application" name="Title of your scenario 3" time="0.026">
-        <system-out><![CDATA[Given I want to write a step with precondition..............................passed
-And some other precondition.................................................passed
-When I complete action with username minni and password 4321................passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And validation is "successfull".............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Sign up to application" name="Title of your scenario" time="0.059">
-        <system-out><![CDATA[Given validate the browser..................................................passed
-When browser is triggered...................................................passed
-Then check if browser is started............................................passed
-Given I want to write a step with precondition..............................passed
-And some other precondition.................................................passed
-When I complete action with username suhail and password 1234...............passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And validation is "successfull".............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Sign up to application" name="Title of your scenario 2" time="0.038">
-        <system-out><![CDATA[Given validate the browser..................................................passed
-When browser is triggered...................................................passed
-Then check if browser is started............................................passed
-Given I want to write a step with precondition..............................passed
-And some other precondition.................................................passed
-When I complete action with username sana and password 2134.................passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And validation is "successfull".............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Sign up to application" name="Title of your scenario 3" time="0.037">
-        <system-out><![CDATA[Given validate the browser..................................................passed
-When browser is triggered...................................................passed
-Then check if browser is started............................................passed
-Given I want to write a step with precondition..............................passed
-And some other precondition.................................................passed
-When I complete action with username minni and password 4321................passed
-And some other action.......................................................passed
-And yet another action......................................................passed
-Then I validate the outcomes................................................passed
-And validation is "successfull".............................................passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Search and place the order" name="Search for items and go to checkoutpage" time="8.775">
-        <system-out><![CDATA[Given User is on GreenKart landing page.....................................passed
-When User searches for vegetables Beetroot..................................passed
-And Added "3" items to cart.................................................passed
-And User clicks on proceed to checkout page for purchase....................passed
-Then Verify selected products Beetroot item is displayed in checkout page...passed
-]]></system-out>
-    </testcase>
-    <testcase classname="Search and place the order" name="Search for items and go to checkoutpage 2" time="6.209">
-        <system-out><![CDATA[Given User is on GreenKart landing page.....................................passed
-When User searches for vegetables Carrot....................................passed
-And Added "3" items to cart.................................................passed
-And User clicks on proceed to checkout page for purchase....................passed
-Then Verify selected products Carrot item is displayed in checkout page.....passed
+    <testcase classname="Practice Page" name="Handling Dynamic dropdowns 4" time="6.149">
+        <system-out><![CDATA[Given User is on Practice Landing Page......................................passed
+When User enters Oman in the select countries text box......................passed
+Then User should be able to select Oman.....................................passed
 ]]></system-out>
     </testcase>
 </testsuite>
