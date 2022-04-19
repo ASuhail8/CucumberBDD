@@ -1,4 +1,4 @@
-package cucumberoptions;
+package cucumberOptions;
 /*
  * package cucumberOptions;
  * 
