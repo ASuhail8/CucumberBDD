@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //package cucumberOptions;io.cucumber.testng.AbstractTestNGCucumberTests;
 /*
 =======
