@@ -1,0 +1,44 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git clone') {
+            steps {
+                // Get some code from a GitHub repository
+                git 'https://github.com/ASuhail8/CucumberBDD.git'
+            }
+        }
+        stage('Packaging the jars') {
+            steps{
+            sh 'mvn clean package -DskipTests'
+            }
+            post{
+                success {
+                    archiveArtifacts 'target/*.jar'
+                }
+            }
+        }
+        stage('Run Smoke tests') {
+            steps{
+                sh 'mvn -Dtest=TestRunnerSmoke test'
+            }
+        post {
+                // If Maven was able to run the tests, even if some of the test
+                // failed, record the test results and archive the jar file.
+                always {
+                    junit 'target/SmokeTests.xml'
+                }
+            }
+        }
+        stage('Run Regression Tests'){
+            steps{
+                sh 'mvn -Dtest=TestRunnerRegression test'
+            }
+            post{
+                always{
+                   junit 'target/RegressionTests.xml' 
+                }
+            }
+        }
+    }
+ }
